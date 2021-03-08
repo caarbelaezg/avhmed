@@ -1,0 +1,46 @@
+.hamburger {
+  position: relative;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include responsive(tab) {
+    display: none;
+  }
+
+
+  &__icon {
+    position: relative;
+    &,
+    &::before,
+    &::after {
+      height: 0.2rem;
+      width: 2rem;
+      background-color: $bg-color-primary-1;
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+    &::before {
+      top: -0.5rem;
+    }
+    &::after {
+      top: 0.5rem;
+    }
+  }
+
+  &:hover &__icon::before {
+    top: -0.6rem;
+  }
+  &:hover &__icon::after {
+    top: 0.6rem;
+  }
+}
