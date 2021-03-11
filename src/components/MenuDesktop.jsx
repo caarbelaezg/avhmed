@@ -17,7 +17,7 @@ const MenuDesktop = () => {
         </li>
         <li className="menu-desk__item">
           <Link to="/">
-            <p className="menu-desk__text">Examenes</p>
+            <p className="menu-desk__text">Exámenes</p>
           </Link>
         </li>
         <li className="menu-desk__item">
