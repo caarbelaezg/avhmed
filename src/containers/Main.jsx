@@ -10,7 +10,7 @@ const Main = () => {
           <img className="main__logo" src={Banner} alt="Logo instituto" />
         </figure>
         <p className="main__description">
-          Instituto ofrece: cursos de alemán en todos los niveles según el Marco
+          Instituto ofrece cursos de alemán en todos los niveles según el Marco
           Común Europeo de Referencia para las Lenguas, exámenes oficiales y
           actividades culturales relacionadas con el idioma y la cultura
           alemana.
