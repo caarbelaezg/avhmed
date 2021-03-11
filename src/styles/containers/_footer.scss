@@ -1,0 +1,97 @@
+.footer {
+  @include container-padding;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-image: linear-gradient(
+    to bottom left,
+    $bg-gray-ligth 20%,
+    $bg-gray-dark 80%
+  );
+  //min-height: 30rem;
+  //max-height: 80rem;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(6, min-content);
+  row-gap: 1rem;
+
+  @include responsive(tab) {
+    grid-template-rows: min-content 1fr repeat(2, min-content);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+  }
+  @include responsive(laptop) {
+    grid-template-rows: min-content repeat(2, min-content);
+    grid-template-columns: min-content repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 1rem;
+  }
+
+  &__description {
+    min-width: 17.5rem;
+    max-width: 30rem;
+    @include responsive(tab) {
+      grid-column: 1/-1;
+    }
+    @include responsive(laptop) {
+      grid-column: 1/2;
+    }
+  }
+  &__container {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  &__img {
+    width: 100%;
+  }
+
+  &__text {
+    @include text-smaller;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    @include responsive(laptop) {
+      text-align: left;
+    }
+  }
+
+  &__heading {
+    @include heading-small;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    @include responsive(laptop) {
+      text-align: left;
+      margin-top: 2rem;
+    }
+  }
+  &__link {
+    @include text-smaller;
+    margin-bottom: 0.2rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @include responsive(laptop) {
+      text-align: left;
+    }
+  }
+  &__social {
+    @include responsive(tab) {
+      grid-column: 1/-1;
+      grid-row: 3/4;
+    }
+    @include responsive(laptop) {
+      grid-row: 2/3;
+    }
+  }
+  &__copy {
+    border-top: 1px solid $bg-gray-dark;
+    @include responsive(tab) {
+      grid-column: 1/-1;
+    }
+    @include responsive(laptop) {
+      grid-row: 3/4;
+    }
+  }
+}

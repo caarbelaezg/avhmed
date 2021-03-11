@@ -1,0 +1,10 @@
+.social {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+
+  &__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
