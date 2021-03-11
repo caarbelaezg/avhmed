@@ -1,5 +1,6 @@
 .homebody {
   @include container-padding;
+  padding-bottom: 5rem;
   display: grid;
   grid-template-rows: repeat(5, min-content);
   row-gap: 2rem;
