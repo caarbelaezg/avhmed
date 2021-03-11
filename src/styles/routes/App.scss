@@ -14,12 +14,14 @@
 @import '../components/hamburger';
 @import '../components/menu';
 @import '../components/menu-desk';
+@import '../components/social';
 
 /*Containers*/
 @import '../containers/layout';
 @import '../containers/header';
 @import '../containers/main';
 @import '../containers/homebody';
+@import '../containers/footer';
 
 /*Pages*/
 @import '../pages/home';

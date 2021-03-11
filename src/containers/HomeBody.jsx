@@ -19,7 +19,7 @@ const HomeBody = () => {
         </aside>
         <section className="homebody__ilustration">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/varios/Cursos.jpg" alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/cursos.jpg" alt="cursos image" />
           </figcaption>
         </section>
       </article>
@@ -37,7 +37,7 @@ const HomeBody = () => {
         </aside>
         <section className="homebody__ilustration homebody__ilustration--reversed">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/logos/LOGO+HUMBOLDT+-+Transparencia+%5BColor%5D.png" alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/banner_color.png" alt="Quienes somos image" />
           </figcaption>
         </section>
       </article>
@@ -51,7 +51,7 @@ const HomeBody = () => {
         </aside>
         <section className="homebody__ilustration">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src={Sofa} alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/sofa.jpg" alt="Dads image" />
           </figcaption>
         </section>
       </article>
@@ -67,7 +67,7 @@ const HomeBody = () => {
         </aside>
         <section className="homebody__ilustration homebody__ilustration--reversed">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src={Examen} alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/examen.jpg" alt="Exámenes image" />
           </figcaption>
         </section>
       </article>
@@ -84,7 +84,7 @@ const HomeBody = () => {
         </aside>
         <section className="homebody__ilustration">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src={Torre} alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/torre.jpg" alt="Cultural image" />
           </figcaption>
         </section>
       </article>
