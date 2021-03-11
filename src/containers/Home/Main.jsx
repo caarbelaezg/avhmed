@@ -1,10 +1,10 @@
 import React from 'react';
-import Banner from '../assets/static/banner_color.png';
-import Location from '../assets/static/location.svg';
+import Banner from '../../assets/static/banner_color.png';
+import Location from '../../assets/static/location.svg';
 
 const Main = () => {
   return (
-    <section className="main">
+    <section className="main main--home">
       <article className="main__avh-description">
         <figure className="main__logocontainer">
           <img className="main__logo" src={Banner} alt="Logo instituto" />

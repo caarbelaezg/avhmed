@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Social from '../components/Social';
+import Social from '../../components/Social';
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
         <Link className="footer__link" to="/">
           Home
         </Link>
-        <Link className="footer__link" to="/">
+        <Link className="footer__link" to="/courses">
           Cursos
         </Link>
         <Link className="footer__link" to="/">
