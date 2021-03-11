@@ -9,8 +9,6 @@
   @include responsive(tab) {
     display: none;
   }
-
-
   &__icon {
     position: relative;
     &,
@@ -18,7 +16,7 @@
     &::after {
       height: 0.2rem;
       width: 2rem;
-      background-color: $bg-color-primary-1;
+      background-color: $text-color-black-1;
       display: inline-block;
     }
 
