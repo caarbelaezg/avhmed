@@ -1,4 +1,4 @@
-.homebody {
+.body {
   @include container-padding;
   padding-bottom: 5rem;
   display: grid;
@@ -36,7 +36,7 @@
     }
   }
 
-  &__feature {
+  &__heading {
     @include heading-small;
     margin-bottom: 1rem;
     text-align: center;

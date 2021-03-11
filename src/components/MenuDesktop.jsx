@@ -6,7 +6,7 @@ const MenuDesktop = () => {
     <nav className="menu-desk">
       <ul className="menu-desk__list">
         <li className="menu-desk__item">
-          <Link to="/">
+          <Link to="/courses">
             <p className="menu-desk__text">Cursos</p>
           </Link>
         </li>

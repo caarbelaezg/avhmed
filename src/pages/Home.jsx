@@ -1,12 +1,12 @@
 import React from 'react';
-import HomeBody from '../containers/HomeBody';
-import Main from '../containers/Main';
+import Body from '../containers/Home/Body';
+import Main from '../containers/Home/Main';
 
 const Home = () => {
   return (
     <section className="home">
       <Main />
-      <HomeBody />
+      <Body />
     </section>
   );
 };

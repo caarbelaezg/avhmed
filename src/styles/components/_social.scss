@@ -1,7 +1,10 @@
 .social {
-  width: 20rem;
+  width: 15rem;
   display: flex;
   justify-content: space-between;
+  @include responsive(tab) {
+    width: 20rem;
+  }
 
   &__icon {
     height: 1.5rem;
