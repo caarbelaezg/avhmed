@@ -2,8 +2,8 @@
   padding: 0.5rem;
   background-image: linear-gradient(
     to bottom,
-    $bg-color-secondary-2,
-    $bg-color-secondary-1
+    $bg-yellow-ligth,
+    $bg-yellow-dark
   );
   position: fixed;
   height: 100vh;
@@ -41,8 +41,7 @@
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
-
-    color: $text-color-primary-1;
+    color: $text-color-black-1;
   }
 
   &__image {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = ({ open, onClose }) => {
+    
   const menuAppearStyle = {
     borderRight: open !== true ? 'none' : '1px solid #cccccc',
     transform: open !== true ? 'translateX(100%)' : 'translateX(0%)',

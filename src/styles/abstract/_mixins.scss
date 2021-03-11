@@ -30,3 +30,54 @@
     }
   }
 }
+
+//Fonts mixins
+
+@mixin heading-large {
+  font-size: $fontsize-heading-primary;
+  font-family: $font-heading-primary;
+  color: $text-color-black-1;
+  font-weight: 700;
+}
+
+@mixin heading {
+  font-size: $fontsize-heading;
+  font-family: $font-headings;
+  color: $text-color-black-1;
+  font-weight: 600;
+}
+
+@mixin heading-small {
+  font-size: $fontsize-heading-small;
+  font-family: $font-headings;
+  color: $text-color-black-1;
+  font-weight: 600;
+}
+
+@mixin text {
+  font-size: $fontsize-text;
+  font-family: $font-texts;
+  color: $text-color-black-1;
+  font-weight: 400;
+}
+
+@mixin text-small {
+  font-size: $fontsize-small;
+  font-family: $font-texts;
+  color: $text-color-black-1;
+  font-weight: 400;
+}
+
+@mixin text-small-gray {
+  font-size: $fontsize-small;
+  font-family: $font-texts;
+  color: $text-color-gray;
+  font-weight: 400;
+}
+
+@mixin text-smaller {
+  font-size: $fontsize-legend;
+  font-family: $font-texts;
+  color: $text-color-black-1;
+  font-weight: 400;
+}

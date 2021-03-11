@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Hamburger from '../UI/Hamburger';
-import Logo from '../UI/Logo';
-import Menu from '../UI/Menu';
-import MenuDesktop from '../UI/MenuDesktop';
+import Hamburger from '../components/Hamburger';
+import Logo from '../components/Logo';
+import Menu from '../components/Menu';
+import MenuDesktop from '../components/MenuDesktop';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

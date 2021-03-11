@@ -9,9 +9,6 @@ const Logo = () => (
         <img className="logo__img" src={LogoRounded} alt="Avh logo" />
       </Link>
     </figure>
-    <Link to="/">
-      <p className="logo__text">Alexander von Humboldt</p>
-    </Link>
   </section>
 );
 
