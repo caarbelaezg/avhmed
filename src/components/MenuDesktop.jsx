@@ -20,6 +20,11 @@ const MenuDesktop = () => {
             <p className="menu-desk__text">Examenes</p>
           </Link>
         </li>
+        <li className="menu-desk__item">
+          <Link to="/">
+            <p className="menu-desk__text">Contacto</p>
+          </Link>
+        </li>
         <li className="menu-desk__item menu-desk__item--other">
           <p className="menu-desk__text">Otros</p>
           <img src="https://img.icons8.com/plasticine/100/000000/chevron-down.png" />
@@ -33,12 +38,7 @@ const MenuDesktop = () => {
               <Link to="/">
                 <p className="menu-desk__text">Cultural</p>
               </Link>
-            </li>
-            <li className="menu-desk__nesteditem">
-              <Link to="/">
-                <p className="menu-desk__text">Contacto</p>
-              </Link>
-            </li>
+            </li>            
           </ul>
         </li>
       </ul>
