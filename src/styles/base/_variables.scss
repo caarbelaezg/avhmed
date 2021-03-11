@@ -1,9 +1,9 @@
 //General colors
-$color-black:#000000;
+$color-black: #000000;
 $color-white: #ffffff;
 
-
 /*Backgroudns*/
+$bg-yellow-ligther: #fbf6f3;
 $bg-yellow-ligth: #f6e27f;
 $bg-yellow: #ffdb27;
 $bg-yellow-dark: #ffbf00;
@@ -11,7 +11,6 @@ $bg-yellow-dark: #ffbf00;
 $bg-gray-ligth: #d8d8d8;
 $bg-gray: #c5cbd3;
 $bg-gray-dark: #686b6f;
-
 
 /*Shadows*/
 $shadow: 0 0.5rem 0.375rem -0.375rem #686b6f;
@@ -22,7 +21,6 @@ $text-color-black-2: #232b2b;
 $text-color-gray: #686b6f;
 $text-color-white: #ffffff;
 
-
 $font-heading-primary: 'Open Sans', sans-serif;
 $font-headings: 'Signika', sans-serif;
 $font-texts: 'Nunito Sans', sans-serif;
@@ -30,7 +28,7 @@ $font-texts: 'Nunito Sans', sans-serif;
 $fontsize-heading-primary: 3.125rem; //50px
 $fontsize-heading: 2.5rem; //40px
 $fontsize-heading-small: 1.875rem;
-    
+
 $fontsize-text: 1.125rem; //18px
 $fontsize-small: 1rem; //16px
 $fontsize-legend: 0.875rem; //14px

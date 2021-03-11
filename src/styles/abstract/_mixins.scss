@@ -42,14 +42,14 @@
 
 @mixin heading {
   font-size: $fontsize-heading;
-  font-family: $font-headings;
+  font-family: $font-heading-primary;
   color: $text-color-black-1;
   font-weight: 600;
 }
 
 @mixin heading-small {
   font-size: $fontsize-heading-small;
-  font-family: $font-headings;
+  font-family: $font-heading-primary;
   color: $text-color-black-1;
   font-weight: 600;
 }
@@ -80,4 +80,9 @@
   font-family: $font-texts;
   color: $text-color-black-1;
   font-weight: 400;
+}
+
+//containers mixins
+@mixin container-padding {
+  padding: 2rem 7% 0 7%;
 }

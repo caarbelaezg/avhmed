@@ -1,7 +1,7 @@
 .main {
   padding: 6.5rem 7% 3% 7%;
   background-image: linear-gradient(
-    to bottom left,
+    to bottom right,
     $bg-yellow-ligth,
     $bg-gray-ligth
   );
@@ -9,6 +9,7 @@
   max-height: 50rem;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+
   @include responsive(tab) {
     display: flex;
   }
