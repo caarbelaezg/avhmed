@@ -86,3 +86,21 @@
 @mixin container-padding {
   padding: 2rem 7% 0 7%;
 }
+
+@mixin main($color1, $color2, $url) {
+  padding: 6.5rem 7% 3% 7%;
+  @if $url != '' {
+    background-image: linear-gradient(to bottom right, $color1, $color2),
+      url($url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } @else {
+    background-image: linear-gradient(to bottom right, $color1, $color2);
+  }
+  min-height: 25rem;
+  max-height: 50rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}

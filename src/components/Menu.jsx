@@ -26,7 +26,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link to="/courses">
               <span className="menu__image">
                 <img src="https://img.icons8.com/ios-filled/50/000000/open-book.png" />
               </span>
