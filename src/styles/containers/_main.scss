@@ -83,11 +83,18 @@
   &__imgContainer {
   }
   &__img {
-    height: 10rem;
+    height: 7rem;
+    @include responsive(laptop) {
+      height: 10rem;
+    }
   }
   &__aviso > p {
     @include text-small;
     margin-bottom: 0.1rem;
+    font-size: 0.8rem;
+    @include responsive(laptop) {
+      font-size: $fontsize-small;
+    }
   }
   &__infoSubtitle {
     @include heading-small;

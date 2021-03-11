@@ -23,10 +23,10 @@ const HomeBody = () => {
           </figcaption>
         </section>
       </article>
-      <article className="homebody__section homebody__section--reversed">
+      <article className="homebody__section">
         <aside className="homebody__aside homebody__aside--reversed">
-          <h2 className="homebody__feature homebody__feature--reversed">¿Quiénes somos?</h2>
-          <p className="homebody__description homebody__description--reversed">
+          <h2 className="homebody__feature">¿Quiénes somos?</h2>
+          <p className="homebody__description">
             El Instituto Cultural Alexander von Humboldt, fundado en 1995,
             ofrece un espacio abierto para vivir de cerca la lengua y la cultura
             alemanas. Con este propósito, el Instituto ofrece: cursos de alemán
@@ -35,9 +35,9 @@ const HomeBody = () => {
             relacionadas con el idioma y la cultura alemana.
           </p>
         </aside>
-        <section className="homebody__ilustration">
+        <section className="homebody__ilustration homebody__ilustration--reversed">
           <figcaption className="homebody__container">
-            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/varios/Nosotros.jpg" alt="cursos image" />
+            <img className="homebody__img" src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/logos/LOGO+HUMBOLDT+-+Transparencia+%5BColor%5D.png" alt="cursos image" />
           </figcaption>
         </section>
       </article>
@@ -56,16 +56,16 @@ const HomeBody = () => {
         </section>
       </article>
 
-      <article className="homebody__section homebody__section--reversed">
+      <article className="homebody__section">
         <aside className="homebody__aside homebody__aside--reversed">
-          <h2 className="homebody__feature homebody__feature--reversed">Exámenes</h2>
-          <p className="homebody__description homebody__description--reversed">
+          <h2 className="homebody__feature">Exámenes</h2>
+          <p className="homebody__description">
             ¿Necesitas un certificado válido internacionalmente que acredite tus
             conocimientos de alemán? Te ofrecemos exámenes Goethe para los
             niveles desde el nivel A1 hasta el B2.
           </p>
         </aside>
-        <section className="homebody__ilustration">
+        <section className="homebody__ilustration homebody__ilustration--reversed">
           <figcaption className="homebody__container">
             <img className="homebody__img" src={Examen} alt="cursos image" />
           </figcaption>
