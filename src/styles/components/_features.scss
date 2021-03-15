@@ -1,0 +1,19 @@
+.features {
+  display: grid;
+  grid-template-rows: min-content repeat(3, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  @include responsive(tab) {
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__title {
+    @include heading-small;
+    text-align: center;
+    @include responsive(tab) {
+      grid-column: 1/-1;
+    }
+  }
+}

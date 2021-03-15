@@ -1,0 +1,19 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 15.2rem;
+  max-width: 15.438rem;
+  min-height: 15.625rem;
+  justify-content: space-between;
+  &__icon {
+    height: 7rem;
+  }
+  &__title {
+    @include heading-small;
+  }
+  &__description {
+    @include text-small;
+    text-align: center;
+  }
+}
