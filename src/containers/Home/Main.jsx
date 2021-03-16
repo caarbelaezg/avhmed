@@ -1,13 +1,15 @@
 import React from 'react';
-import Banner from '../../assets/static/banner_color.png';
-import Location from '../../assets/static/location.svg';
 
 const Main = () => {
   return (
     <section className="main main--home">
       <article className="main__avh-description">
         <figure className="main__logocontainer">
-          <img className="main__logo" src={Banner} alt="Logo instituto" />
+          <img
+            className="main__logo"
+            src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/banner_color.png"
+            alt="Logo instituto"
+          />
         </figure>
         <p className="main__description">
           Instituto ofrece cursos de alemán en todos los niveles según el Marco
@@ -15,16 +17,15 @@ const Main = () => {
           actividades culturales relacionadas con el idioma y la cultura
           alemana.
         </p>
-        <section className="main__btns">
-          <a className="main__btn btn" href="#">
-            Continuar
-          </a>
-        </section>
       </article>
       <article className="main__info">
         <h3 className="main__infoTitle">Avisos</h3>
         <figure className="main__imgContainer">
-          <img className="main__img" src={Location} alt="avisos recientes" />
+          <img
+            className="main__img"
+            src="https://s3-sa-east-1.amazonaws.com/avh.medellin/images/home/location.svg"
+            alt="avisos recientes"
+          />
         </figure>
         <section className="main__aviso">
           <h4 className="main__infoSubtitle">Atención presencial</h4>

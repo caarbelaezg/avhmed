@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
   return (
     <section className="body">
       <article className="body__section">
         <aside className="body__aside">
-          <h2 className="body__heading">Cursos</h2>
+          <h2 className="body__heading"><Link>Cursos</Link></h2>
           <p className="body__description">
             ¿Quieres aprender alemán? Ofrecemos cursos de alemán desde el primer
             nivel (A1.1) hasta niveles avanzados como el C1. Los contenidos se
@@ -26,7 +27,7 @@ const Body = () => {
       </article>
       <article className="body__section">
         <aside className="body__aside body__aside--reversed">
-          <h2 className="body__heading">¿Quiénes somos?</h2>
+          <h2 className="body__heading"><Link>¿Quiénes somos?</Link></h2>
           <p className="body__description">
             El Instituto Cultural Alexander von Humboldt, fundado en 1995,
             ofrece un espacio abierto para vivir de cerca la lengua y la cultura
@@ -48,7 +49,7 @@ const Body = () => {
       </article>
       <article className="body__section">
         <aside className="body__aside">
-          <h2 className="body__heading">Deutsch auf dem Sofa</h2>
+          <h2 className="body__heading"><Link>Deutsch auf dem Sofa</Link></h2>
           <p className="body__description">
             Deutsch auf dem Sofa - nuestro programa de actividades virtuales
             extracurriculares para el aprendizaje de alemán – desde tu sofá.
@@ -67,7 +68,7 @@ const Body = () => {
 
       <article className="body__section">
         <aside className="body__aside body__aside--reversed">
-          <h2 className="body__heading">Exámenes</h2>
+          <h2 className="body__heading"><Link>Exámenes</Link></h2>
           <p className="body__description">
             ¿Necesitas un certificado válido internacionalmente que acredite tus
             conocimientos de alemán? Te ofrecemos exámenes Goethe para los
@@ -87,7 +88,7 @@ const Body = () => {
 
       <article className="body__section">
         <aside className="body__aside">
-          <h2 className="body__heading">Oferta Cultural</h2>
+          <h2 className="body__heading"><Link>Oferta Cultural</Link></h2>
           <p className="body__description">
             El Instituto Cultural Alexander von Humboldt, en alianza con
             diferentes entidades locales, nacionales e internacionales, organiza
