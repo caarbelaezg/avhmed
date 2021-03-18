@@ -1,0 +1,13 @@
+.cards {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  row-gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  &__title {
+    @include heading-small;
+
+    grid-column: 1/-1;
+  }
+}

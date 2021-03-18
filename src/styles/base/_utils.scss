@@ -1,0 +1,9 @@
+.avh__link {
+  text-decoration: none;
+  @include text-small;
+  color: $bg-yellow-dark;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $bg-yellow-ligth;
+  }
+}

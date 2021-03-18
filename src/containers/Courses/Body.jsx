@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Features from '../../components/Features';
 import Courses from '../../components/Courses';
 import AppContext from '../../context/AppContext';
+import Button from '../../components/Button';
 
 const Body = () => {
   const { state } = useContext(AppContext);
@@ -19,9 +20,9 @@ const Body = () => {
             académicas. El instituto los lleva a cabo con base al Marco Común
             Europeo de las Lenguas - MCER.
           </p>
-          <a className="body__btn" href={links.incripcion} target="_blank">
+          <Button type="avh__btn" link={links.incripcion}>
             Inscribirse
-          </a>
+          </Button>
         </aside>
         <section className="body__ilustration">
           <figure className="body__container">
@@ -45,7 +46,7 @@ const Body = () => {
             ser como los curso grupales según el Marco Común Europeo, clases de
             refuerzo y también preparación para los diferentes exámenes. Para
             obtener una cotización, envíanos un correo a{' '}
-            <a className="body__link" href="mailto:avhmedellin@gmail.com">
+            <a className="avh__link" href="mailto:avhmedellin@gmail.com">
               avhmedellin@gmail.com
             </a>{' '}
             especificando el tipo de curso que deseas.
@@ -91,7 +92,7 @@ const Body = () => {
           <ol className="body__list">
             <li>
               Llenar y enviar el{' '}
-              <a className="body__link" href={links.incripcion}>
+              <a className="avh__link" href={links.incripcion}>
                 formulario
               </a>{' '}
               de inscripción en línea
@@ -110,7 +111,7 @@ const Body = () => {
               Para realizar la matrícula y reserva de cupo debe enviar el
               comprobante de pago, inmediatamente hecha la consignación, al
               correo{' '}
-              <a className="body__link" href="mailto:avhmedellin@gmail.com">
+              <a className="avh__link" href="mailto:avhmedellin@gmail.com">
                 avhmedellin@gmail.com
               </a>
               .
