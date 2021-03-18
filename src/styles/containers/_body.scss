@@ -105,38 +105,6 @@
     }
   }
 
-  &__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2rem;
-    width: 10rem;
-    border-radius: 1rem;
-    background-color: $bg-yellow-dark;
-    text-decoration: none;
-    @include text-small;
-    transform: translateY(0.5rem);
-    box-shadow: $shadow;
-    transition: all 0.2s ease;
-    margin: 1rem 0;
-
-    :active,
-    :hover,
-    :focus {
-      transform: translateY(0);
-    }
-  }
-
-  &__link {
-    text-decoration: none;
-    @include text-small;
-    color: $bg-yellow-dark;
-    transition: all 0.2s ease;
-    &:hover {
-      color: $bg-yellow-ligth;
-    }
-  }
-
   &__list {
     margin-top: 1rem;
     margin-left: 1rem;

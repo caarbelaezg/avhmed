@@ -1,7 +1,90 @@
 export default {
-  examenes: [],
+  examenes: [
+    {
+      name: 'FIT IN DEUTSCH 1',
+      features: [
+        { feature: 'A1' },
+        { feature: 'Jóvenes' },
+        { feature: '10 a 16 años' },
+      ],
+      price: '$300.000',
+    },
+    {
+      name: 'START DEUTSCH 1',
+      features: [
+        { feature: 'A1' },
+        { feature: 'Adultos' },
+        { feature: '+17 años' },
+      ],
+      price: '$525.000',
+    },
+    {
+      name: 'FIT IN DEUTSCH 2',
+      features: [
+        { feature: 'A2' },
+        { feature: 'Jóvenes' },
+        { feature: '10 a 16 años' },
+      ],
+      price: '$360.000',
+    },
+    {
+      name: 'START DEUTSCH 2',
+      features: [
+        { feature: 'A2' },
+        { feature: 'Adultos' },
+        { feature: '+17 años' },
+      ],
+      price: '$552.000',
+    },
+    {
+      name: 'GOETHE ZERTIFIKAT',
+      features: [
+        { feature: 'B1' },
+        { feature: 'Jóvenes' },
+        { feature: '12 a 15 años' },
+      ],
+      price: '$380.000',
+    },
+    {
+      name: 'GOETHE ZERTIFIKAT',
+      features: [
+        { feature: 'B1' },
+        { feature: 'Adultos' },
+        { feature: '+16 años' },
+      ],
+      price: '$765.000',
+    },
+    {
+      name: 'MÓDULO',
+      features: [
+        { feature: 'B1' },
+        { feature: 'Jóvenes' },
+        { feature: '+16 años' },
+      ],
+      price: '$245.000',
+    },
+    {
+      name: 'GOETHE ZERTIFIKAT',
+      features: [
+        { feature: 'B2' },
+        { feature: 'Adultos' },
+        { feature: '+18 años' },
+      ],
+      price: '$930.000',
+    },
+    {
+      name: 'MÓDULO',
+      features: [
+        { feature: 'B2' },
+        { feature: 'Adultos' },
+        { feature: '+18 años' },
+      ],
+      price: '$525.000',
+    },
+  ],
   links: {
     incripcion: 'https://forms.gle/dZQU1ejryvZyrKBo7',
+    examenes: 'https://forms.gle/Ev68fnGicaQTuZvx8',
   },
   features: [
     {

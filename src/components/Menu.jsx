@@ -42,7 +42,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link onClick={onClose} to="/">
+            <Link onClick={onClose} to="/examenes">
               <span className="menu__image">
                 <img src="https://img.icons8.com/fluent-systems-filled/24/000000/test-results.png" />
               </span>

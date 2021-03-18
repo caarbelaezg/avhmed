@@ -1,0 +1,38 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  &__head {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  &__heading {
+    @include heading-small;
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  &__body {
+    width: 100%;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:nth-child(odd) {
+      background-color: $bg-yellow-ligth;
+    }
+  }
+
+  &__item {
+    @include text-smaller;
+    width: 50%;
+    text-align: center;
+    @include responsive(tab) {
+      @include text-small;
+    }
+  }
+}
