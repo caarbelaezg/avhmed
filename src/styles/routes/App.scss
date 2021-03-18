@@ -8,6 +8,7 @@
 @import '../base/variables';
 @import '../base/base';
 @import '../base/animations';
+@import '../base/utils';
 
 /*Components*/
 @import '../components/logo';
@@ -19,6 +20,10 @@
 @import '../components/feature';
 @import '../components/course';
 @import '../components/courses';
+@import '../components/gallery';
+@import '../components/buttons';
+@import '../components/table';
+@import '../components/card';
 
 /*Containers*/
 @import '../containers/layout';
@@ -26,6 +31,8 @@
 @import '../containers/main';
 @import '../containers/body';
 @import '../containers/footer';
+@import '../containers/cards';
 
 /*Pages*/
 @import '../pages/home';
+@import '../pages/institut';

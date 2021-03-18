@@ -8,6 +8,10 @@
     row-gap: 4rem;
   }
 
+  &--institut {
+    padding-top: 10rem;
+  }
+
   &__section {
     display: flex;
     flex-direction: column;
@@ -48,6 +52,16 @@
     @include responsive(tab) {
       text-align: left;
       margin-bottom: 1.5rem;
+    }
+  }
+
+  &__heading > * {
+    text-decoration: none;
+    color: $color-black;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $bg-yellow;
     }
   }
   &__description {
@@ -91,43 +105,23 @@
     }
   }
 
-  &__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2rem;
-    width: 10rem;
-    border-radius: 1rem;
-    background-color: $bg-yellow-dark;
-    text-decoration: none;
-    @include text-small;
-    transform: translateY(0.5rem);
-    box-shadow: $shadow;
-    transition: all 0.2s ease;
-    margin: 1rem 0;
-
-    :active,
-    :hover,
-    :focus {
-      transform: translateY(0);
-    }
-  }
-
-  &__link {
-    text-decoration: none;
-    @include text-small;
-    color: $bg-yellow-dark;
-    transition: all 0.2s ease;
-    &:hover {
-      color: $bg-yellow-ligth;
-    }
-  }
-
   &__list {
     margin-top: 1rem;
     margin-left: 1rem;
   }
   &__list > * {
     @include text-small;
+  }
+
+  &__logo {
+    max-width: 41.875rem;
+    justify-self: center;
+    margin-bottom: 1rem;
+  }
+
+  &__map {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
   }
 }

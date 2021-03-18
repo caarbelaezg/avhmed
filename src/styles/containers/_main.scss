@@ -15,6 +15,16 @@
       display: flex;
     }
   }
+  &--examenes {
+    @include main(
+      $bg-yellow-ligth,
+      $bg-gray-ligth-opacity,
+      'https://s3-sa-east-1.amazonaws.com/avh.medellin/images/examenes/examen2.jpg'
+    );
+    @include responsive(tab) {
+      display: flex;
+    }
+  }
 
   &__avh-description {
     min-width: 17.5rem;

@@ -18,7 +18,7 @@ const Menu = ({ open, onClose }) => {
       <nav className="menu__nav">
         <ul className="menu__list">
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/">
               <span className="menu__image">
                 <img src="https://img.icons8.com/material-rounded/24/000000/home.png" />
               </span>
@@ -26,7 +26,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/courses">
+            <Link onClick={onClose} to="/courses">
               <span className="menu__image">
                 <img src="https://img.icons8.com/ios-filled/50/000000/open-book.png" />
               </span>
@@ -34,7 +34,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/institut">
               <span className="menu__image">
                 <img src="https://img.icons8.com/material-sharp/24/000000/school-building.png" />
               </span>
@@ -42,7 +42,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/examenes">
               <span className="menu__image">
                 <img src="https://img.icons8.com/fluent-systems-filled/24/000000/test-results.png" />
               </span>
@@ -50,7 +50,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/">
               <span className="menu__image">
                 <img src="https://img.icons8.com/metro/26/000000/sofa.png" />
               </span>
@@ -58,7 +58,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/">
               <span className="menu__image">
                 <img src="https://img.icons8.com/android/24/000000/tear-off-calendar.png" />
               </span>
@@ -66,7 +66,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link to="/">
+            <Link onClick={onClose} to="/">
               <span className="menu__image">
                 <img src="https://img.icons8.com/material/24/000000/important-mail.png" />
               </span>

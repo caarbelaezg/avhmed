@@ -74,6 +74,11 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $bg-gray;
+    }
     @include responsive(laptop) {
       text-align: left;
     }

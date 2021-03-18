@@ -1,0 +1,158 @@
+.card {
+  width: 13rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to bottom, $bg-gray-ligth, $bg-gray);
+  box-shadow: $shadow-3;
+
+  &__heading {
+    height: 30%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-white;
+    position: relative;
+
+    &--A1 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-red 30%,
+        $color-red-ligth 100%
+      );
+    }
+    &--A2 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-blue 30%,
+        $color-blue-ligth 100%
+      );
+    }
+    &--B1 {
+      background-image: linear-gradient(
+        to right bottom,
+        $bg-yellow 30%,
+        $bg-yellow-dark 100%
+      );
+    }
+    &--B2 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-green 30%,
+        $color-green-ligth 100%
+      );
+    }
+  }
+
+  &__title {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 7rem;
+    text-align: right;
+    &--A1 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-red-ligth,
+        $color-red
+      );
+    }
+    &--A2 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-blue-ligth,
+        $color-blue
+      );
+    }
+    &--B1 {
+      background-image: linear-gradient(
+        to right bottom,
+        $bg-yellow-dark 30%,
+        $bg-yellow 100%
+      );
+    }
+    &--B2 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-green-ligth,
+        $color-green
+      );
+    }
+  }
+
+  &__body {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__feature {
+    width: 60%;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    @include text-small;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $bg-gray-dark;
+    }
+  }
+
+  &__footer {
+    height: 30%;
+    background-color: purple;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: $color-white;
+
+    &--A1 {
+      background-image: linear-gradient(
+        to left bottom,
+        $color-red-ligth 30%,
+        $color-red 100%
+      );
+    }
+    &--A2 {
+      background-image: linear-gradient(
+        to left bottom,
+        $color-blue-ligth 30%,
+        $color-blue 100%
+      );
+    }
+    &--B1 {
+      background-image: linear-gradient(
+        to left bottom,
+        $bg-yellow 30%,
+        $bg-yellow-dark 100%
+      );
+    }
+    &--B2 {
+      background-image: linear-gradient(
+        to left bottom,
+        $color-green-ligth 30%,
+        $color-green 100%
+      );
+    }
+  }
+  &__price {
+    @include text-small;
+    color: $color-white;
+  }
+  &__value {
+    @include heading-small;
+    color: $color-white;
+  }
+}
