@@ -49,7 +49,7 @@ const Footer = () => {
         <Link className="footer__link" to="/">
           Cultural
         </Link>
-        <Link className="footer__link" to="/">
+        <Link className="footer__link" to="/contacto">
           Contacto
         </Link>
       </section>

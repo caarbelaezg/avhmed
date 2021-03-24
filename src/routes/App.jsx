@@ -6,6 +6,7 @@ import Courses from '../pages/Courses';
 import Institut from '../pages/Institut';
 import Examenes from '../pages/Examenes';
 import Dads from '../pages/Dads';
+import Contacto from '../pages/Contacto';
 
 import Layout from '../pages/Layout';
 
@@ -28,6 +29,7 @@ const App = () => {
             <Route exact path="/institut" component={Institut} />
             <Route exact path="/examenes" component={Examenes} />
             <Route exact path="/dads" component={Dads} />
+            <Route exact path="/contacto" component={Contacto} />
           </Switch>
         </Layout>
       </BrowserRouter>
