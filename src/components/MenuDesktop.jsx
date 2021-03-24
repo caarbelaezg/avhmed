@@ -35,7 +35,7 @@ const MenuDesktop = () => {
               </Link>
             </li>
             <li className="menu-desk__nesteditem">
-              <Link to="/">
+              <Link to="/cultural">
                 <p className="menu-desk__text">Cultural</p>
               </Link>
             </li>            

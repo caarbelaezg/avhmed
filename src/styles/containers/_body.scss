@@ -21,6 +21,9 @@
     padding-top: 10rem;
     grid-template-rows: repeat(3, min-content);
   }
+  &--cultural {
+    grid-template-rows: repeat(2, min-content);
+  }
 
   &__section {
     display: flex;
