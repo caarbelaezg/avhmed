@@ -4,7 +4,7 @@ import Cards from './Cards';
 
 const Body = () => {
   return (
-    <section className="body">
+    <section className="body body--examenes">
       <article className="body__section">
         <aside className="body__aside">
           <h2 className="body__heading">Calendario</h2>

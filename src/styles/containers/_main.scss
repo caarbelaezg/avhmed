@@ -25,6 +25,16 @@
       display: flex;
     }
   }
+  &--sofa {
+    @include main(
+      $bg-yellow-ligth,
+      $bg-gray-ligth-opacity,
+      'https://s3-sa-east-1.amazonaws.com/avh.medellin/images/Deutsch+auf+dem+Sofa/sofa2.jpg'
+    );
+    @include responsive(tab) {
+      display: flex;
+    }
+  }
 
   &__avh-description {
     min-width: 17.5rem;
@@ -92,6 +102,12 @@
   &__heading {
     @include heading-large;
     margin-bottom: 2rem;
+    &--dads {
+      @include heading;
+      @include responsive(phone-l) {
+        @include heading-large;
+      }
+    }
   }
   &__infoTitle {
     @include heading-small;

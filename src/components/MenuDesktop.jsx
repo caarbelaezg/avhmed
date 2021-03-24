@@ -30,7 +30,7 @@ const MenuDesktop = () => {
           <img src="https://img.icons8.com/plasticine/100/000000/chevron-down.png" />
           <ul className="menu-desk__nestedlist">
             <li className="menu-desk__nesteditem">
-              <Link to="/">
+              <Link to="/dads">
                 <p className="menu-desk__text">Deutsch auf dem sofa</p>
               </Link>
             </li>
