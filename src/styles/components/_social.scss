@@ -5,6 +5,12 @@
   @include responsive(tab) {
     width: 20rem;
   }
+  &__link {
+    text-decoration: none;
+    @include text;
+    display: flex;
+    align-items: center;
+  }
 
   &__icon {
     height: 1.5rem;

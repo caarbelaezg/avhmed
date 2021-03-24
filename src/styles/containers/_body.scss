@@ -17,6 +17,10 @@
   &--examenes {
     grid-template-rows: repeat(3, min-content);
   }
+  &--contacto {
+    padding-top: 10rem;
+    grid-template-rows: repeat(3, min-content);
+  }
 
   &__section {
     display: flex;
@@ -135,5 +139,10 @@
     width: 100%;
     height: 100%;
     border-radius: 1rem;
+  }
+
+  &__formular {
+    width: 100%;
+    height: 100%;
   }
 }
