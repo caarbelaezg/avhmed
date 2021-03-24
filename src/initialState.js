@@ -85,6 +85,8 @@ export default {
   links: {
     incripcion: 'https://forms.gle/dZQU1ejryvZyrKBo7',
     examenes: 'https://forms.gle/Ev68fnGicaQTuZvx8',
+    dads:
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNWxsk07X8LLxRazVA9AUQQCVidXnw717cH3co8DeUkhAu0g/viewform',
   },
   features: [
     {

@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Courses from '../pages/Courses';
 import Institut from '../pages/Institut';
 import Examenes from '../pages/Examenes';
+import Dads from '../pages/Dads';
 
 import Layout from '../pages/Layout';
 
@@ -26,6 +27,7 @@ const App = () => {
             <Route exact path="/courses" component={Courses} />
             <Route exact path="/institut" component={Institut} />
             <Route exact path="/examenes" component={Examenes} />
+            <Route exact path="/dads" component={Dads} />
           </Switch>
         </Layout>
       </BrowserRouter>

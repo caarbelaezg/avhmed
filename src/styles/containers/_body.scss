@@ -11,6 +11,12 @@
   &--institut {
     padding-top: 10rem;
   }
+  &--dads {
+    grid-template-rows: repeat(2, min-content);
+  }
+  &--examenes {
+    grid-template-rows: repeat(3, min-content);
+  }
 
   &__section {
     display: flex;
@@ -103,6 +109,12 @@
       height: 80%;
       width: 80%;
     }
+  }
+  &__soloimg {
+    width: 100%;
+    justify-self: center;
+    border-radius: 1rem;
+    box-shadow: $shadow-2;
   }
 
   &__list {
