@@ -50,7 +50,7 @@ const Menu = ({ open, onClose }) => {
             </Link>
           </li>
           <li className="menu__item">
-            <Link onClick={onClose} to="/">
+            <Link onClick={onClose} to="/dads">
               <span className="menu__image">
                 <img src="https://img.icons8.com/metro/26/000000/sofa.png" />
               </span>

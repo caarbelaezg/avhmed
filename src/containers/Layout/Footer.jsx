@@ -43,7 +43,7 @@ const Footer = () => {
         <Link className="footer__link" to="/examenes">
           Examenes
         </Link>
-        <Link className="footer__link" to="/">
+        <Link className="footer__link" to="/dads">
           Deutsch auf dem sofa
         </Link>
         <Link className="footer__link" to="/">
