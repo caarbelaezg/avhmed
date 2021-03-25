@@ -55,8 +55,12 @@ const Footer = () => {
       </section>
       <section className="footer__legal">
         <h3 className="footer__heading">Legal</h3>
-        <p className="footer__text">Documentos</p>
-        <p className="footer__text">Gestión de calidad</p>
+        <Link className="footer__link" to="/legal">
+          Documentos
+        </Link>
+        <Link className="footer__link" to="/sgc">
+          Gestión de calidad
+        </Link>
       </section>
       <section className="footer__aliados">
         <h3 className="footer__heading">Aliados</h3>
