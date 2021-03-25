@@ -24,6 +24,11 @@
   &--cultural {
     grid-template-rows: repeat(2, min-content);
   }
+  &--legal,
+  &--sgc {
+    padding-top: 10rem;
+    grid-template-rows: repeat(1, min-content);
+  }
 
   &__section {
     display: flex;

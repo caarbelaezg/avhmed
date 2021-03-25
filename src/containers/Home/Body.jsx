@@ -54,7 +54,7 @@ const Body = () => {
       <article className="body__section">
         <aside className="body__aside">
           <h2 className="body__heading">
-            <Link>Deutsch auf dem Sofa</Link>
+            <Link to="/dads">Deutsch auf dem Sofa</Link>
           </h2>
           <p className="body__description">
             Deutsch auf dem Sofa - nuestro programa de actividades virtuales
@@ -97,7 +97,7 @@ const Body = () => {
       <article className="body__section">
         <aside className="body__aside">
           <h2 className="body__heading">
-            <Link>Oferta Cultural</Link>
+            <Link to="/cultural">Oferta Cultural</Link>
           </h2>
           <p className="body__description">
             El Instituto Cultural Alexander von Humboldt, en alianza con
