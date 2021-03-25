@@ -8,6 +8,8 @@ import Examenes from '../pages/Examenes';
 import Dads from '../pages/Dads';
 import Contacto from '../pages/Contacto';
 import Cultural from '../pages/Cultural';
+import Legal from '../pages/Legal';
+import Sigc from '../pages/Sigc';
 
 import Layout from '../pages/Layout';
 
@@ -32,6 +34,8 @@ const App = () => {
             <Route exact path="/dads" component={Dads} />
             <Route exact path="/contacto" component={Contacto} />
             <Route exact path="/cultural" component={Cultural} />
+            <Route exact path="/legal" component={Legal} />
+            <Route exact path="/sgc" component={Sigc} />
           </Switch>
         </Layout>
       </BrowserRouter>
