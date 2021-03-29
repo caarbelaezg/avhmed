@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = ({ open, onClose }) => {
-    
   const menuAppearStyle = {
     borderRight: open !== true ? 'none' : '1px solid #cccccc',
     transform: open !== true ? 'translateX(100%)' : 'translateX(0%)',
@@ -10,7 +9,6 @@ const Menu = ({ open, onClose }) => {
 
   return (
     <section className="menu" style={menuAppearStyle}>
-
       <div onClick={onClose} className="menu__icon">
         &#10006;
       </div>
@@ -47,6 +45,14 @@ const Menu = ({ open, onClose }) => {
                 <img src="https://img.icons8.com/fluent-systems-filled/24/000000/test-results.png" />
               </span>
               <p className="menu__text">Examenes</p>
+            </Link>
+          </li>
+          <li className="menu__item">
+            <Link onClick={onClose} to="/blog">
+              <span className="menu__image">
+                <img src="https://img.icons8.com/fluent-systems-filled/24/000000/blog.png" />
+              </span>
+              <p className="menu__text">Blog</p>
             </Link>
           </li>
           <li className="menu__item">
