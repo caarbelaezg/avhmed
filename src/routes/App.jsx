@@ -10,6 +10,7 @@ import Contacto from '../pages/Contacto';
 import Cultural from '../pages/Cultural';
 import Legal from '../pages/Legal';
 import Sigc from '../pages/Sigc';
+import Blog from '../pages/Blog';
 
 import Layout from '../pages/Layout';
 
@@ -36,6 +37,7 @@ const App = () => {
             <Route exact path="/cultural" component={Cultural} />
             <Route exact path="/legal" component={Legal} />
             <Route exact path="/sgc" component={Sigc} />
+            <Route exact path="/blog" component={Blog} />
           </Switch>
         </Layout>
       </BrowserRouter>
